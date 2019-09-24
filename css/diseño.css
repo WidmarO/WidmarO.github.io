@@ -1,0 +1,65 @@
+img
+{
+  margin-left: 450px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 0px #424242;
+  float:left
+}
+.titulo
+{
+  background: #363636;
+  height: 80px;
+  font-size: 30px;
+  color :white;
+}
+
+	
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+body{
+	 background: url("../imagenes/fondo1.jpg");
+	 font-family: 'Open sans';//fuente
+}
+.wrap{
+	width: 800px;
+	max-width: 90%;
+	margin: 30px auto;//auto=centrar
+}
+ul.tabs{
+	width: 100%;
+	background: #363636;
+	list-style: none;
+	display: flex;
+}
+ul.tabs li{
+	width: 25%;
+
+}
+ul.tabs li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px ;
+}
+.active{
+	background: #0984cc;
+}
+.secciones{
+	width: 100%;
+	background: #fff;
+}
+.secciones article{
+	padding: 30px;
+}
+.secciones article p{
+	text-align: justify; //separa las lineas
+}
+//ul.tabs li a .tab-text{} separar logos
