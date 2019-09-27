@@ -1,3 +1,12 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
 img
 {
   margin-left: 450px;
@@ -5,30 +14,23 @@ img
   box-shadow: 5px 5px 0px #424242;
   float:left
 }
-.titulo
-{
+.titulo{
   background: #363636;
   height: 80px;
   font-size: 30px;
   color :white;
 }
 
-	
-*{
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing: border-box;
-}
+
+
 body{
-	 background: url("../imagenes/perezoso.jpg");
-	 font-family: 'Open sans';//fuente
+	 background:#cdcece;
+	 font-family: 'Open sans';/*fuente*/
 }
 .wrap{
-	width: 800px;
+	width: 100%;
 	max-width: 90%;
-	margin: 30px auto;//auto=centrar
+	margin: 30px auto;/*auto=centrar*/
 }
 ul.tabs{
 	width: 100%;
@@ -40,6 +42,7 @@ ul.tabs li{
 	width: 25%;
 
 }
+
 ul.tabs li a{
 	color:#fff;
 	text-decoration: none;
@@ -53,13 +56,14 @@ ul.tabs li a{
 	background: #0984cc;
 }
 .secciones{
-	width: 100%;
-	background: #fff;
+	width: 40%;
+	
+	background: rgb(177, 165, 165);
 }
 .secciones article{
 	padding: 30px;
 }
 .secciones article p{
-	text-align: justify; //separa las lineas
+	text-align: justify; /*separa las lineas*/
 }
-//ul.tabs li a .tab-text{} separar logos
+/*ul.tabs li a .tab-text{} separar logos*/
