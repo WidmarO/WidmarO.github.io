@@ -7,7 +7,7 @@
 	box-sizing:border-box;
 
 }
-img
+.LOGO
 {
   margin-left: 450px;
   border-radius: 50%;
@@ -20,12 +20,16 @@ img
   font-size: 30px;
   color :white;
 }
-
-
-
+.INICIO{
+	
+	padding:0px 150px;  /*height = altura   width = anchura padding =relleno*/
+	float: right;	
+	
+}
 body{
-	 background:#cdcece;
-	 font-family: 'Open sans';/*fuente*/
+	 background:url(../fondos/Minimalist-Desktop.png);
+	 background-repeat: no-repeat;
+	 font-family: 'arial';/*fuente*/
 }
 .wrap{
 	width: 100%;
@@ -56,14 +60,15 @@ ul.tabs li a{
 	background: #0984cc;
 }
 .secciones{
-	width: 40%;
-	
-	background: rgb(177, 165, 165);
+	width: 90%;
+	margin:0px 75px;
+	background: #ffffff;
 }
 .secciones article{
-	padding: 30px;
+	padding: 40px;
 }
 .secciones article p{
+	width: 100%;
 	text-align: justify; /*separa las lineas*/
 }
 /*ul.tabs li a .tab-text{} separar logos*/
