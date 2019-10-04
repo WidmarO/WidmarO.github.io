@@ -20,12 +20,37 @@
   font-size: 30px;
   color :white;
 }
-.INICIO{
+.INICIO_MISION .MISION{
 	
 	padding:0px 150px;  /*height = altura   width = anchura padding =relleno*/
 	float: right;	
-	
 }
+.PAPER{
+	background:url(../fondos/head.jpg);
+	height: 500px;
+	width: 1520px;
+	background-size: 100% 100%;
+}
+.PAPER p{
+	padding:10px 100px;
+	text-align: center;
+	font-size: 150px;
+	font:oblique bold 150px cursive;
+	color :#fff;
+}
+.INICIO_VISION .VISION{
+	padding: 0px 150px;
+	float :left;
+}
+/*.pMISION
+{
+	width: 100%;
+	padding: 30px 30px;
+	
+	text-align: justify;
+}
+*/
+
 body{
 	 background:url(../fondos/Minimalist-Desktop.png);
 	 background-repeat: no-repeat;
@@ -62,13 +87,14 @@ ul.tabs li a{
 .secciones{
 	width: 90%;
 	margin:0px 75px;
-	background: #ffffff;
+	background: #fff;
 }
 .secciones article{
 	padding: 40px;
 }
 .secciones article p{
 	width: 100%;
+	padding: 30px 20px ;
 	text-align: justify; /*separa las lineas*/
 }
 /*ul.tabs li a .tab-text{} separar logos*/
