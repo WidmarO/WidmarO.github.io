@@ -1,34 +1,65 @@
-img
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+.LOGO
 {
   margin-left: 450px;
   border-radius: 50%;
   box-shadow: 5px 5px 0px #424242;
   float:left
 }
-.titulo
-{
+.titulo{
   background: #363636;
   height: 80px;
   font-size: 30px;
   color :white;
 }
-
+.INICIO_MISION .MISION{
 	
-*{
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing: border-box;
+	padding:0px 150px;  /*height = altura   width = anchura padding =relleno*/
+	float: right;	
 }
+.PAPER{
+	background:url(../fondos/head.jpg);
+	height: 500px;
+	width: 1520px;
+	background-size: 100% 100%;
+}
+.PAPER p{
+	padding:10px 100px;
+	text-align: center;
+	font-size: 150px;
+	font:oblique bold 150px cursive;
+	color :#fff;
+}
+.INICIO_VISION .VISION{
+	padding: 0px 150px;
+	float :left;
+}
+/*.pMISION
+{
+	width: 100%;
+	padding: 30px 30px;
+	
+	text-align: justify;
+}
+*/
+
 body{
-	 background: url("../imagenes/perezoso.jpg");
-	 font-family: 'Open sans';//fuente
+	 background:url(../fondos/Minimalist-Desktop.png);
+	 background-repeat: no-repeat;
+	 font-family: 'arial';/*fuente*/
 }
 .wrap{
-	width: 800px;
+	width: 100%;
 	max-width: 90%;
-	margin: 30px auto;//auto=centrar
+	margin: 30px auto;/*auto=centrar*/
 }
 ul.tabs{
 	width: 100%;
@@ -40,6 +71,7 @@ ul.tabs li{
 	width: 25%;
 
 }
+
 ul.tabs li a{
 	color:#fff;
 	text-decoration: none;
@@ -53,13 +85,16 @@ ul.tabs li a{
 	background: #0984cc;
 }
 .secciones{
-	width: 100%;
+	width: 90%;
+	margin:0px 75px;
 	background: #fff;
 }
 .secciones article{
-	padding: 30px;
+	padding: 40px;
 }
 .secciones article p{
-	text-align: justify; //separa las lineas
+	width: 100%;
+	padding: 30px 20px ;
+	text-align: justify; /*separa las lineas*/
 }
-//ul.tabs li a .tab-text{} separar logos
+/*ul.tabs li a .tab-text{} separar logos*/
