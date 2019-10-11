@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -7,50 +6,45 @@
 	box-sizing:border-box;
 
 }
-.LOGO
-{
-  margin-left: 450px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 0px #424242;
-  float:left
+.contenedor{
+    background: #c2052d;
+    height: 1600px;
+}
+.LOGO{
+    
+    border-radius: 50%;
+    box-shadow: 5px 5px 0px #424242;
+    float: left;
 }
 .titulo{
-  background: #363636;
-  height: 80px;
-  font-size: 30px;
-  color :white;
-  background-size: 100%;
-}
-.INICIO_MISION .MISION{
-	
-	padding:0px 150px;  /*height = altura   width = anchura padding =relleno*/
-	float: right;	
+    background:#424242;
+    font-size: 35px;
+    background-size :100%;
+    color:white;
 }
 .PAPER{
-	background:url(../fondos/head.png);
-		height: 600px;
-		width: 1520px;
-	background-size	:100% 100%;
+    background:url(../fondos/paper.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;  
+    
 }
 .PAPER p{
 	padding:0px 100px;
 	text-align: center;
 	font-size: 50px;
 	font:oblique bold 150px cursive;
-	color :#fff;
+	color :#EABE3F;
+}
+.INICIO_MISION .MISION{
+	
+	padding:0px 150px;  /*height = altura   width = anchura padding =relleno*/
+	float: right;	
 }
 .INICIO_VISION .VISION{
 	padding: 0px 150px;
 	float :left;
 }
-/*.pMISION
-{
-	width: 100%;
-	padding: 30px 30px;
-	
-	text-align: justify;
-}
-*/
 
 body{
 	 background:url(../fondos/Minimalist-Desktop.png);
